@@ -3,7 +3,6 @@
 # n is the number of terms in Taylor series
 
 from PI import PI
-import math
 def cos(x):
     """
     This function approximates the cosine of an angle in degrees using Taylor series expansion.
@@ -23,13 +22,12 @@ def cos(x):
     if not isinstance(x, (int, float)):
         raise TypeError('x must be a number')
     if x<-20 or x>20:
-        y = x % (2*round(PI(),2))
-        if y < -round(PI(),2):
-            y += 2*round(PI(),2)
-        elif y > round(PI(),2):
-            y -= 2*round(PI(),2)
-        x = y
-        
+        temp = x % (2*round(PI(),2))
+        if temp < -round(PI(),2):
+            temp += 2*round(PI(),2)
+        elif temp > round(PI(),2):
+            temp -= 2*round(PI(),2)
+        x = temp
     n = 100
     result = 1.0
     sign = -1.0
