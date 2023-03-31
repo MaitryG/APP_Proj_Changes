@@ -43,5 +43,5 @@ def sin(x):
         fact *= (2 * i + 2) * (2 * i + 3)
 
     return result
-print(sin(0))
-print(sin(3.14/6))
+# print(sin(0))
+# print(sin(3.14/6))
