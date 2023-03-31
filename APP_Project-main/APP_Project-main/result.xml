@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<Cheers>
+	<Coaster name="0">
+		<Radius>3.0</Radius>
+		<Area>28.27432488230797</Area>
+		<Circumference>18.849549921538646</Circumference>
+		<OverlapArea>14.137162441153984</OverlapArea>
+		<DistancetoShift>None</DistancetoShift>
+	</Coaster>
+	<Coaster name="1">
+		<Radius>3.0</Radius>
+		<Area>28.27432488230797</Area>
+		<Circumference>18.849549921538646</Circumference>
+		<OverlapArea>14.137162441153984</OverlapArea>
+		<DistancetoShift>1.7880813301627736</DistancetoShift>
+	</Coaster>
+	<Coaster name="2">
+		<Radius>3.0</Radius>
+		<Area>28.27432488230797</Area>
+		<Circumference>18.849549921538646</Circumference>
+		<OverlapArea>14.137162441153984</OverlapArea>
+		<DistancetoShift>nan</DistancetoShift>
+	</Coaster>
+</Cheers>
