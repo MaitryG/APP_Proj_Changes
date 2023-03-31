@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<cheers>
+	<coaster name="1">
+		<radius>4.0</radius>
+		<area>50.26546645743639</area>
+		<circumference>25.132733228718195</circumference>
+		<overlapArea>25.132733228718195</overlapArea>
+		<distancetoshift>2.3832384817980388</distancetoshift>
+	</coaster>
+	<coaster name="2">
+		<radius>7.0</radius>
+		<area>153.93799102589895</area>
+		<circumference>43.98228315025684</circumference>
+		<overlapArea>76.96899551294948</overlapArea>
+		<distancetoshift>4.170667255861927</distancetoshift>
+	</coaster>
+</cheers>
