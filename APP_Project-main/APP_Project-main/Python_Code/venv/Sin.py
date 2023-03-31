@@ -24,12 +24,12 @@ def sin(x):
         raise TypeError('x must be a number')
 
     if x < -20 or x > 20:
-        y = x % (2 * round(PI(),2))
-        if y < -round(PI(),2):
-            y += 2 * round(PI(),2)
-        elif y > round(PI(),2):
-            y -= 2 * round(PI(),2)
-        x = y
+        temp = x % (2 * round(PI(),2))
+        if temp < -round(PI(),2):
+            temp += 2 * round(PI(),2)
+        elif temp > round(PI(),2):
+            temp -= 2 * round(PI(),2)
+        x = temp
 
     n = 100
     result = 0.0
@@ -43,4 +43,5 @@ def sin(x):
         fact *= (2 * i + 2) * (2 * i + 3)
 
     return result
-print
+print(sin(0))
+print(sin(3.14/6))
